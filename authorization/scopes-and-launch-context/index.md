@@ -166,6 +166,7 @@ Launch context parameter | Example value | Meaning
 `intent` | `"reconcile-medications"`| String value describing the intent of the application launch (see notes [below](#launch-intent))
 `smart_style_url` | `"https://ehr/styles/smart_v1.json"`| String URL where the host's style parameters can be retrieved (for apps that support [styling](#styling))
 
+The term host is used for the first time here.  It may benefit the reader if a definition is added.  I infer from the context that it has to do with having a consistent look and feel of the EHR within which the App is being used but Host may have a broader intent.
 
 #### Notes on launch context parameters
 
